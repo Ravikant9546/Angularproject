@@ -1,0 +1,45 @@
+<div class="login-container">
+    <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+            class="bi bi-camera-reels-fill" viewBox="0 0 16 16">
+            <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            <path
+                d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7z" />
+        </svg>
+
+        MONSTERS TALKIES
+        <hr
+        style="background-image:linear-gradient(to right, rgb(7, 7, 7),rgb(10, 10, 10));border: 4px;height: 4px;">
+
+    </div>
+    <img class="film" src="assets/images/film.jpg" alt="">
+    <div class="desc">
+
+     Monsters Talkies is the home of amazing original programming that you can’t find anywhere else.
+        Movies, TV shows,specials and more, all tailored specifically to you.
+        Monsters Talkies has an extensive library of feature films,
+        documentaries, TV shows, anime, award-winning
+        Netflix originals and more. 
+     
+
+
+
+    </div>
+    <div class="login-form">
+        <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="username" />
+        </div>
+        <div class="form-group">
+            <label for="pword">password</label>
+            <input type="password" name="pword" class="form-control" [(ngModel)]="password" />
+        </div>
+        <div class="btn-container">
+            <div class="error">{{errorMsg}}</div>
+            <button class="btn btn-dark" (click)="login()">Login</button>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,104 @@
+.home-container{
+    display: flex;
+    .all-movies{
+        width: 76%;
+        min-height: calc(100vh - 80px);
+        border-right: 1px solid #fdc827;
+        padding: 20px 40px;
+        font-family: "Robot",sans-serif;
+        
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 15px;
+            h4{
+                text-transform: uppercase;
+                font-weight: bold;
+                border-left: 5px solid #ff9900;
+                padding-left: 10px;
+            }
+            .view-all{
+                text-transform: uppercase;
+                cursor: pointer;
+                border-left: 5px solid #ff9900
+            }
+        }
+        .movies-thumbnail{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            .movie{
+                .cover{
+                    cursor: pointer;
+                    margin: 5px;
+                    
+                    img{
+                        border-radius: 5px;
+                    }
+                }
+                .detail{
+                    width: 180px;
+                    .name{
+                        font-weight: bold;
+                        height: 45px;
+                        margin-top: 5px;
+                        cursor: pointer;
+                        font-family: cursive;
+                    }
+                    
+                }
+                
+            }
+
+        }
+    
+
+    
+
+.rating{
+  padding-right: 15px;
+    position: relative;
+    .rating-value{
+        position: absolute;
+        top: 6px;
+        font-family: cursive;
+       
+
+        
+    }
+}
+}
+}
+.popular-tag{
+    text-transform: uppercase;
+                font-weight: bold;
+                padding-left: 10px;
+                border-left: 6px solid #ff9900;
+               
+}
+.movies{
+    
+    .cover{
+        padding: 10px;
+        align-items: center;
+        cursor: pointer;
+        img{
+            border-radius: 5px;
+        }
+    }
+    .detail{
+        width: 180px;
+        margin: 10px;
+        .name{
+            font-weight: bold;
+            height: 45px;
+            margin-top: 5px;
+            cursor: pointer;
+            font-family: cursive;
+        }
+    }
+}
+
+                
+                
